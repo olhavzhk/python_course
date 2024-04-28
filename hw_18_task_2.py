@@ -15,5 +15,5 @@ def in_range(start, end=None, step=1):
             start += step
 
 
-print(list(range(0, 10, 1)))
 print(list(in_range(0, 10, 1)))
+print(list(range(0, 10, 1)))
